@@ -1,8 +1,8 @@
 from asyncio import BaseProtocol
 import os, sys
-from scanner.BaseProtocol import BaseProtocol
+from scanner.BaseWrapper import BaseWrapper
 
-class Snmp(BaseProtocol):
+class SnmpWrapper(BaseWrapper):
 
     def asyncRequest(self, timeout=5):
         pass

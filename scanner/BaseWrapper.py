@@ -1,7 +1,7 @@
 import os
 import sys
 
-class BaseProtocol:
+class BaseWrapper:
 
     def __init__(self, name):
         self.name = name    # instance variable unique to each instance
